@@ -186,7 +186,7 @@ h3 {
 .connections {
     margin: 20px 0px 0px 0px;
     width: 250px;
-    height: 300px;
+    height: 250px;
     border: solid 1px black;
 
 }
@@ -221,13 +221,12 @@ img {
 .connection-request {
     margin: 20px 0px 0px 0px;
     width: 250px;
-    height: 200px;
+    height: 155px;
     border: solid 1px black;
 
 }
 
 .requests {
-
     font-size: 25px;
 }
 
@@ -258,4 +257,9 @@ img {
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+}
+
+#bottom-bar {
+    height: 10px;
+    margin-top: 5px;
 }
