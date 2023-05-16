@@ -1,0 +1,261 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+/* css for navbar */
+.nav {
+
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-title {
+    font-size: 40px;
+    margin-left: 255px;
+}
+
+
+.nav-links {
+
+    margin-right: 195px;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    border: solid 3px black;
+    background-color: rgb(23, 162, 184);
+    box-shadow: 2px 2px 2px black;
+    margin-right: 50px;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.container4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+
+
+}
+
+
+/* css for user card */
+
+
+.user-card {
+    margin: 20px;
+    height: 300px;
+    width: 500px;
+    background-color: whitesmoke;
+    border: solid 2px rgb(51, 51, 51);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+
+
+.profile-picture img {
+    margin-left: 20px;
+    border: solid 5px rgb(156, 151, 151);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+
+}
+
+.top-bar {
+    width: inherit;
+    height: 100px;
+    background-color: rgb(23, 162, 184);
+
+}
+
+.bio,
+h3 {
+    margin-left: 20px;
+    font-size: 12px;
+
+}
+
+.location {
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.location img {
+    margin: 5px 20px 5px 20px;
+    height: 15px;
+    width: 10px;
+
+}
+
+.edit {
+    color: blue;
+    text-decoration: underline;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.edit img {
+    margin: 5px 5px 5px 20px;
+    height: 15px;
+    width: 15px;
+
+}
+
+/* css for education */
+
+.education {
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border: solid 1px black;
+
+}
+
+.top-bar2 {
+    text-align: left;
+    color: white;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+}
+
+.education-info {
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.dates1 {
+    font-size: 15px;
+    color: gray;
+
+}
+
+.belts {
+    font-size: 10px;
+
+}
+
+/* css for connections */
+.connections {
+    margin: 20px 0px 0px 0px;
+    width: 250px;
+    height: 300px;
+    border: solid 1px black;
+
+}
+
+#bottom-bar {
+    margin-left: 5px;
+    color: rgb(5, 143, 143);
+    text-decoration: underline;
+    margin-left: 5px;
+
+}
+
+img {
+    width: 30px;
+    margin: 5px;
+
+}
+
+.pic {
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+.friends {
+    font-size: 25px;
+
+}
+
+/* css for connection requests */
+.connection-request {
+    margin: 20px 0px 0px 0px;
+    width: 250px;
+    height: 200px;
+    border: solid 1px black;
+
+}
+
+.requests {
+
+    font-size: 25px;
+}
+
+.request-decline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter1 {
+    text-align: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.counter2 {
+    text-align: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
